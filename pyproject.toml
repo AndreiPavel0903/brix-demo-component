@@ -1,0 +1,10 @@
+[project]
+name = "brix-demo-component"
+version = "0.1.0"
+description = "A tiny MCP server used as a demo component for Brix."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["mcp>=1.2.0"]
+
+[project.scripts]
+brix-demo-component = "server:mcp.run"
